@@ -1,5 +1,6 @@
 15 Mark Question | Sum of digits in a String.
-Write a Java program that reads a string containing a mix of letters (in any case) and digits. Calculate the sum of all digits in the string, following these rules:
+Write a Java program that reads a string containing a mix of letters (in any case) and digits.
+Calculate the sum of all digits in the string, following these rules:
 
 If the sum of digits is 15 or less, print the sum.
 If the sum is greater than 15, or if no digits are found, print "No Digit Found".
