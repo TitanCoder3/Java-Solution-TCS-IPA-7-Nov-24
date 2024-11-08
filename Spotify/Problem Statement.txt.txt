@@ -1,0 +1,57 @@
+ Create the class Spotify with below attribute:
+
+ spotifyId -int 
+ profileName -String
+ subscriptionType -String
+ price -double
+ groupSessionsAvailable -String
+
+The above attributes must be private, write getters and setters and parametrized constructor as well.
+
+Create public class Solution with main method.
+Implement one static method: searchSpotifyPriceAvg in Solution class.
+
+searchSpotifyPriceAvg() :
+This method takes 3 input array of Spotify objects with String  subscriptionTypeCheck and String groupSessionsAvailableCheck  as input parameters.
+This method will return the Average of price of Spotify objects where given String Parameters  subscriptionTypeCheck(String) and  groupSessionsAvailableCheck (String) matches with 
+the actual attributes of Spotify objects.
+
+All searches should be case insensitive.
+For this method- The main method should print the Average as it is if returned value is not equal to zero. 
+if returned value is zero then it print "No such users".
+
+ Before calling this static method, use Scanner object to read the values of four Spotify
+objects. No two Spotify Id will have same value. All the searches should be case insensitive.
+then take two String input refering subscriptionTypeCheck and groupSessionsAvailableCheck.
+then call searchSpotifyPriceAvg() method in main method.
+
+Consider below sample input and output to test your code.
+
+Sample Input:
+
+  1
+  netflix
+  monthly
+  1000
+  yes
+  2
+  prime
+  monthly
+  2000
+  yes
+  3
+  hotstar
+  yearly
+  500
+  no
+  4
+  aha
+  yearly
+  1000
+  no
+  monthly
+  yes
+
+Sample Output:
+
+ 1500.0
